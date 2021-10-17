@@ -37,7 +37,7 @@ function App() {
         <div>Password:</div>
         <input
           id="pswField"
-          type="text"
+          type="password"
           name="password"
           onChange={formik.handleChange}
           value={formik.values.password}
